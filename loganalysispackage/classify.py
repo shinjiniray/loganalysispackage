@@ -1,4 +1,4 @@
-import mongoconn as mc
+from . import mongoconn as mc, elasticsearchconn
 from elasticsearchconn import getlogs
 
 
