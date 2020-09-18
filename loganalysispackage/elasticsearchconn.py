@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch
-from . import mongoconn as mc
+import mongoconn as mc
 
 
 def getlogs(client, filePath):

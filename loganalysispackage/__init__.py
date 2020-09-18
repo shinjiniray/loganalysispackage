@@ -1,4 +1,4 @@
-from . import loganalysis
+from . import loganalysis, average, classify, configreader, datasource, elasticsearchconn, model, mongoconn, prediction
 
 __all__ = [
     'average',
