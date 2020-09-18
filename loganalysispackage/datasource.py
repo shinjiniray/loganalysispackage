@@ -1,5 +1,4 @@
-from . import classify
-from classify import classify
+from .classify import classify
 import numpy as np
 
 

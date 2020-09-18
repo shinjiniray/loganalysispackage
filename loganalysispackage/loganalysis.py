@@ -1,10 +1,9 @@
 import logging
 
-from . import average, datasource, model, prediction
-from average import getAverage
-from datasource import getData
-from model import buildModel
-from prediction import getPrediction
+from .average import getAverage
+from .datasource import getData
+from .model import buildModel
+from .prediction import getPrediction
 import math
 
 
