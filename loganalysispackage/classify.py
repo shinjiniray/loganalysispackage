@@ -1,5 +1,5 @@
+from . import elasticsearchconn, mongoconn as mc
 from elasticsearchconn import getlogs
-import mongoconn as mc
 
 
 def classify(client, filePath):

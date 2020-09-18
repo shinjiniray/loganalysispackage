@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-import configreader as cfgr
+from . import configreader as cfgr
 
 
 def getMongoConn(filePath):
